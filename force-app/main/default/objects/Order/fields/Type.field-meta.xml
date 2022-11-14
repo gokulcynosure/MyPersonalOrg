@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type</fullName>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+</CustomField>
+Contents. Salesforce Extensions for VS Code runs commands against the org that you've set as your default org for development. In the package development model, your default org is typically a scratch org. In the org development model, it's typically a sandbox, a Developer Edition (DE) org, or a Trailhead Playground.

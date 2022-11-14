@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>parents</fullName>
+    <columns>NAME</columns>
+    <columns>Job__c</columns>
+    <columns>Annual_income__c</columns>
+    <columns>Aadhar_Number__c</columns>
+    <columns>Parental__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>parents</label>
+</ListView>

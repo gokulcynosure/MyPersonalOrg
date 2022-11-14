@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>job_sector__c</fullName>
+    <externalId>false</externalId>
+    <label>job_sector</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>goverment</fullName>
+                <default>false</default>
+                <label>goverment</label>
+            </value>
+            <value>
+                <fullName>private</fullName>
+                <default>false</default>
+                <label>private</label>
+            </value>
+            <value>
+                <fullName>unemployee</fullName>
+                <default>false</default>
+                <label>unemployee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

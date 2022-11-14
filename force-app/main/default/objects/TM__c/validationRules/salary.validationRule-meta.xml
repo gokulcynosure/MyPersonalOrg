@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>salary</fullName>
+    <active>true</active>
+    <errorConditionFormula>Salary__c   &gt;  TL__r.Salary__c</errorConditionFormula>
+    <errorMessage>Team member salary should not be higher than team leader salary and team member should be less than 25 years old</errorMessage>
+</ValidationRule>

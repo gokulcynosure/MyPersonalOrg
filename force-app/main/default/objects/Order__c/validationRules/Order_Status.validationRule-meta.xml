@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Status</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(PRIORVALUE(Status__c), &apos;Activated&apos;),
+ISCHANGED( Quantity__c )
+)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Sorry you cant add products for Activated order. Please try to create new Order</errorMessage>
+</ValidationRule>

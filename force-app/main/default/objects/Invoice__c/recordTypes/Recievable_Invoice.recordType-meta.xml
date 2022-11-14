@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recievable_Invoice</fullName>
+    <active>true</active>
+    <label>Recievable Invoice</label>
+    <picklistValues>
+        <picklist>Financial_Year__c</picklist>
+        <values>
+            <fullName>2021-2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2022-2023</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Order_Type__c</picklist>
+        <values>
+            <fullName>Purchase Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Order</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
